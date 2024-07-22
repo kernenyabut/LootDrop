@@ -1,0 +1,2 @@
+rootProject.name='Loot Drop'
+include ':app'

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuSettings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/menuStats"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="@string/menu_stats" />
+        <item
+            android:id="@+id/menuCredits"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/menu_credits" />
+        <item
+            android:id="@+id/menuReset"
+            android:icon="@drawable/ic_refresh_black_24dp"
+            android:title="@string/menu_reset" />
+    </group>
+</menu>

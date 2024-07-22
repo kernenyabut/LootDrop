@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Loot Drop</string>
+
+    <!--Status-->
+    <string name="status">Choose a Crate</string>
+    <string name="opening">Opening...</string>
+    <string name="reward">Your reward:</string>
+    <string name="score">Score</string>
+
+    <!--Reward-->
+    <string name="rewardNothing">Nothing...</string>
+    <string name="rewardBronze">Bronze Coin</string>
+    <string name="rewardSilver">Silver Coin</string>
+    <string name="rewardGold">Gold Coin</string>
+    <string name="rewardDiamond">Diamond Gem</string>
+
+    <!--Buttons-->
+    <string name="commonChest">Common (3)</string>
+    <string name="rareChest">Rare (5)</string>
+    <string name="legendaryChest">Legendary (10)</string>
+    <string name="resetStats">Reset Stats</string>
+
+    <!-- Notifications/Toasts-->
+    <string name="keepPlaying">Keep playing!</string>
+    <string name="title_activity_credits">CreditsActivity</string>
+    <string name="gameOver">You\'re out of money! Reset the game to continue playing.</string>
+    <string name="notEnoughFunds">Insufficient funds.</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    //Menu Items
+    <string name="menu_settings">Settings</string>
+    <string name="menu_stats">Statistics</string>
+    <string name="menu_credits">Credits</string>
+    <string name="menu_reset">Reset</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="menu_header">Loot Drop</string>
+
+    <!-- Preference Headers -->
+    <string name="theme_header">Theme</string>
+    <string name="saveState_header">Save State</string>
+
+    <!-- Preferences -->
+    <string name="darkTheme_title">Dark Theme</string>
+    <string name="save_title">Save Reward on Close</string>
+    <string name="save_summary_on">Your previous reward will be saved upon closing
+    </string>
+    <string name="save_summary_off">Your previous reward will reset when closing</string>
+
+    <!-- Stats-->
+    <string name="yourStats">Your Stats</string>
+    <string name="lootCratesOpened">Loot Crates Opened</string>
+    <string name="highestScore">Highest Score</string>
+    <string name="favouriteLootCrate">Favourite Loot Crate</string>
+    <string name="lootReceived">Number of Loot Received:</string>
+    <string name="bronzeCoinsAwarded">Bronze Coins:</string>
+    <string name="silverCoinsAwarded">Silver Coins:</string>
+    <string name="goldCoinsAwarded">Gold Coins:</string>
+    <string name="diamondGemsAwarded">Diamond Gems:</string>
+
+    <!-- FAB -->
+    <string name="openSettings">Settings</string>
+    <string name="openAbout">About</string>
+
+    <!-- Stats-->
+    <string name="howToPlayTitle">How to Play</string>
+    <string name="howToPlayBody">
+        The goal of the game is to get the highest score possible using 100 coins by buying
+        three different chests; a common chest, a rare chest, or a legendary chest. Each chest
+        has a different drop rate for one of the five possible rewards: nothing, a bronze coin,
+        a silver coin, a gold coin, and a diamond gem.
+    </string>
+    <string name="dropRatesTitle">Drop Rates</string>
+    <string name="dropRatesLeft">
+        Common Chest: \n\n\n\n\n\n
+        Rare Chest: \n\n\n\n\n\n
+        Legendary Chest: \n\n\n\n\n\n
+    </string>
+    <string name="dropRatesRight">
+        Nothing - 15%\n
+        Bronze - 45%\n
+        Silver - 35%\n
+        Gold - 4%\n
+        Diamond - 1%\n\n
+        Nothing - 10%\n
+        Bronze - 35%\n
+        Silver - 40%\n
+        Gold - 12%\n
+        Diamond - 3%\n\n
+        Nothing - 5%\n
+        Bronze - 25%\n
+        Silver - 43%\n
+        Gold - 20%\n
+        Diamond - 7%\n\n
+    </string>
+
+    <!--Credits-->
+    <string name="creditsTitle">Credits</string>
+    <string name="creditsBodyLeft">
+        Developed By: \n\n
+        Development:\n\n\n
+        Assets:\n\n\n\n
+        Special Thanks to: \n
+    </string>
+    <string name="creditsBodyRight">
+        Desert Sands Applications \n\n
+        Kernen Yabut \n
+        James Parks \n\n
+        Nikita Golubev - Loot Box \n
+        Roundicons - Coins \n
+        Freepik - Gem \n\n
+        Conestoga College \n
+        Google \n
+        Chris Lo - for an excellent semester\n
+    </string>
+</resources>

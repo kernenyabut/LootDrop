@@ -1,0 +1,65 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="DarkAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorBlack</item>
+        <item name="android:itemBackground">@color/colorBlack</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:summaryOn">@color/colorWhite</item>
+        <item name="android:summaryOff">@color/colorWhite</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+
+    <!-- SplashScreenTheme. -->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Temporary theme at start up for main activity -->
+        <item name="android:background">@drawable/ic_logo_size</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Button Style-->
+    <style name="CommonChestButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@color/colorGrey</item>
+    </style>
+
+    <style name="RareChestButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@color/colorBlue</item>
+    </style>
+
+    <style name="LegendaryChestButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@color/colorOrange</item>
+    </style>
+
+    <!-- Currency-->
+    <style name="Currency" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@color/colorTransGrey</item>
+    </style>
+
+    <style name="SplashScreenTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashScreenTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="SplashScreenTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
